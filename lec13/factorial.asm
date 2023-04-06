@@ -8,7 +8,7 @@
     JSR FACTORIAL
 ; pop return value from run-time stack (to R0) 
     LDR R0,R6,#0
-    ADD R6, R6, #-1
+    ADD R6, R6, #1
     HALT
 
 FACTORIAL:
